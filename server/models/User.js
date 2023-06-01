@@ -33,6 +33,9 @@ const userSchema = new Schema(
 );
 
 // hash user password
+// pre() method is used to add a pre-hook to the mongoose Schema methods and can be used to perform pre Schema method operations
+// It has 3 parameters; 1) methodName or regex applied to apply pre middleware to, 2) options is an optional mongoose object that
+// contains options.document and options.query, and 3) a callback function that accepts the parameter 'next'
 userSchema.pre('save', async function (next) {
   if (this.isNew || this.isModified('password')) {
     const saltRounds = 10;
