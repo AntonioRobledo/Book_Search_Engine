@@ -15,12 +15,5 @@
   "devDependencies": {
     "concurrently": "^5.1.0"
   },
-  "dependencies": {
-    "@apollo/client": "^3.7.14",
-    "@apollo/react-hooks": "^4.0.0",
-    "apollo-server-express": "^3.6.2",
-    "graphql": "^16.3.0",
-    "jsonwebtoken": "^9.0.0",
-    "mongodb": "^5.5.0"
-  }
+  "homepage": "."
 }
