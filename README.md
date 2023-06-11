@@ -47,8 +47,8 @@ THEN I am logged out of the site and presented with a menu with the options Sear
 ```
 
 ## Installation
-
-- Run `npm i` to install the application's dependencies.
+- Clone GitHub Repo onto local machine
+- Run `npm i` in the repo's root directory to install the application's dependencies
 - Run `npm run develop` to start the server and serve the client-side files
 
 # Screenshot 
@@ -56,5 +56,6 @@ THEN I am logged out of the site and presented with a menu with the options Sear
 ![screenshot]( ./Assets/Google_Books_Search_Engine_2.png)
 
 ## Link to Deployed Application
+https://boiling-coast-02757.herokuapp.com/
 
 
